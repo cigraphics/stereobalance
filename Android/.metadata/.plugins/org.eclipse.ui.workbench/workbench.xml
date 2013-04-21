@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="685" x="683" y="30">
 <fastViewData fastViewLocation="1024"/>
@@ -13,7 +13,7 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -43,7 +43,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="/home/mihai-tudor/Stereobalance/stereobalance/Android/stereobalance_control/src/com/example/stereobalance_control/MainActivity.java" title="MainActivity.java" tooltip="stereobalance_control/src/com/example/stereobalance_control/MainActivity.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/stereobalance_control/src/com/example/stereobalance_control/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1687" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1687" selectionTopPixel="773"/>
 </editor>
 </editors>
 <views>
@@ -159,11 +159,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/stereobalance_control/res/layout/activity_main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/stereobalance_control/src/com/example/stereobalance_control/MainActivity.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/stereobalance_control/src/anglelistener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/stereobalance_control/res/layout/activity_main.xml"/>
 </editors>
-<item historyLabel="anglelistener.java" index="2">
-<position info="not_deleted" x="85" y="11"/>
-</item>
-<item historyLabel="activity_main.xml" index="0"/>
 <item historyLabel="MainActivity.java" index="1">
 <position info="not_deleted" x="72" y="0"/>
 </item>
@@ -301,8 +298,12 @@
 <position info="not_deleted" x="2234" y="0"/>
 </item>
 <item historyLabel="activity_main.xml" index="0"/>
-<item active="true" historyLabel="MainActivity.java" index="1">
+<item historyLabel="MainActivity.java" index="1">
 <position info="not_deleted" x="2234" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="3"/>
+<item active="true" historyLabel="MainActivity.java" index="1">
+<position info="not_deleted" x="1687" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
