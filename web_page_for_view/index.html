@@ -1,10 +1,32 @@
 <html>
 <head>
+<!--This page will be refreshed by the phone application, sending sensor info in the request-->
+<!--This script converts the POST request to commands for Arduino by writing the results in the two files-->
+<?php
+  $direction=$_POST['dir'];
+  $turn=$_POST['turn'];
+  $f_dir="/scripts/direction.txt" 
+  $f_turn="/scripts/turn.txt"
+  $f_hd=fopen($f_dir,"w");
+  $f_ht=fopen($f_dir,"w");
+  fwrite($f_hd,$direction);
+  fwrite($f_ht,$turn);
+  fclose($f_hd);
+  fclose($f_ht);
+?>
 </head>
 <body>
-<table><tr>
+<table>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<!--Load images captured-->
 <td><img src="images/left.jpg"></td>
 <td><img src="images/right.jpg"></td>
+</tr>
+</table>
 </body>
 </html>
 
