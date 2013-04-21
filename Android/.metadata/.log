@@ -10,3 +10,43 @@ Command-line arguments:  -data /home/mihai-tudor/Stereobalance/stereobalance/And
 
 !ENTRY org.eclipse.ui 2 2 2013-04-21 02:09:21.042
 !MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2013-04-21 04:30:08.171 -----------------------------------------------
+eclipse.buildId=I20120502-2000
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ro_RO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-04-21 04:30:50.055
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10011 2013-04-21 04:30:50.055
+!MESSAGE "Object Teams Patch for JDT/Core" is not applicable to the current configuration and will not be installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-04-21 04:30:50.056
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10011 2013-04-21 04:30:50.056
+!MESSAGE "Object Teams Patch for JDT/Core" is not applicable to the current configuration and will not be installed.
+
+!ENTRY org.eclipse.ui 2 2 2013-04-21 04:31:19.992
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2013-04-21 04:31:21.443 -----------------------------------------------
+eclipse.buildId=I20120502-2000
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ro_RO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2013-04-21 04:31:43.644
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-04-21 04:32:59.039
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.android.ide.eclipse.adt.internal.sdk.Sdk$5
+!SESSION 2013-04-21 04:32:59.636 -----------------------------------------------
+eclipse.buildId=I20120502-2000
+java.version=1.7.0_15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ro_RO
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2013-04-21 04:34:23.588
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
