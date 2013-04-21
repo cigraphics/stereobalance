@@ -1,0 +1,45 @@
+package com.example.stereobalance_control;
+
+import android.app.Activity;
+import android.content.Context;
+import android.hardware.Sensor;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
+import android.os.Bundle;
+import android.view.Menu;
+
+public class MainActivity extends Activity implements SensorEventListener{
+	private float mXf,mYf,mZf;
+	private boolean mInitialized;
+	private SensorManager sm1;
+	private Sensor mAcc;
+	private final float NOISE=(float)2;
+	
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        mInitialized=false;
+        sm1=(SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        mAcc=sm1.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        sm1.registerListener(this, mAcc,SensorManager.SENSOR_DELAY_NORMAL);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.activity_main, menu);
+        return true;
+    }
+    
+    @Override
+    protected void onResume(){
+    	super.onResume();
+    	sm1.registerListener(this, mAcc, SensorManager.SENSOR_DELAY_NORMAL);
+    }
+    
+    @Override
+    protected void onPause(){
+    	
+    }
+}
