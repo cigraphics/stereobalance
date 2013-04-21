@@ -15,7 +15,7 @@ public class MainActivity extends Activity implements SensorEventListener{
 	private SensorManager sm1;
 	private Sensor mAcc;
 	private final float NOISE=(float)2;
-	float angle1,angle2;
+	private float angle1,angle2;
 	
 	private float computeAngle(float axis1,float axis2){
     	//Compute angle from axis values
@@ -65,10 +65,8 @@ public class MainActivity extends Activity implements SensorEventListener{
     	mZf=z;
 	    angle1=this.computeAngle(mZf,mXf);
 	    angle2=this.computeAngle(mZf,mYf);
-	    float f1=Math.abs(angle1);
-	    float f2=Math.abs(angle2);
-	    if (f1<NOISE) angle1=(float)0;
-	    if (f2<NOISE) angle2=(float)0;
+	    if (Math.abs(angle1)<NOISE) angle1=(float)0;
+	    if (Math.abs(angle2)<NOISE) angle2=(float)0;
 	    TextView a1=(TextView)findViewById(R.id.angle_1);
 	    TextView a2=(TextView)findViewById(R.id.angle_2);
 	    a1.setText(Float.toString(angle1));
