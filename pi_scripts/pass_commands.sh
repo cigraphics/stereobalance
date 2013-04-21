@@ -40,6 +40,8 @@ while :
 			   gpio write 2 0;;
 			l) gpio write 2 1;  ## Turn left
 			   gpio write 3 0;;
+			0) gpio write 3 0;
+			   gpio write 2 0;; ## No turn
 			*) ## When functioning in normal parameters, the loop should never get here
 			   echo "Wrong input for turn, command reading process might have failed.";
 			   echo "Exiting";
